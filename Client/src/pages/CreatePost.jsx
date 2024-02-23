@@ -50,7 +50,7 @@ const CreatePost = () => {
       setLoading(true);
       try {
         const response =await fetch('https://visioncraft-9zjp.onrender.com//api/v1/post',{
-     method:'Post',
+     method:'POST',
      headers:{
       'Content-Type':'application/json'
      },
